@@ -61,4 +61,4 @@ npm run dev      # Launches React app on http://localhost:5173
 All figures formatted with Indian numbering system (`en-IN`):
 - **Base Pay + House Rent Allowance (HRA) + Transport + Medical**
 - **Deductions:** Provident Fund (PF), Professional Tax, Tax Deducted at Source (TDS)
-- **Net Monthly Take-Home in ₹**
+- **Net Monthly Take-Home in ₹**# webdev
