@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { Layers, Eye, EyeOff, Shield, User, ArrowRight, AlertCircle } from 'lucide-react';
+import { Layers, Eye, EyeOff, ArrowRight, AlertCircle } from 'lucide-react';
 
 export default function Login() {
   const { login } = useAuth();
@@ -31,15 +31,6 @@ export default function Login() {
     }
   };
 
-  const fillDemoAccount = (role) => {
-    setError('');
-    if (role === 'ADMIN') {
-      setForm({ email: 'admin@dayflow.com', password: 'Admin@123' });
-    } else {
-      setForm({ email: 'aarav.patel@dayflow.com', password: 'Employee@123' });
-    }
-  };
-
   return (
     <div className="auth-page">
       <div className="auth-card">
@@ -59,34 +50,7 @@ export default function Login() {
           </div>
         )}
 
-        {/* Demo Account Quick Fill */}
-        <div style={{ marginBottom: 'var(--space-4)' }}>
-          <div className="text-xs text-muted font-semibold uppercase mb-2" style={{ textAlign: 'center' }}>
-            Quick Demo Access
-          </div>
-          <div className="flex gap-2 justify-center">
-            <button
-              type="button"
-              className="btn btn-secondary btn-sm"
-              onClick={() => fillDemoAccount('ADMIN')}
-              style={{ fontSize: '0.75rem', flex: 1 }}
-            >
-              <Shield size={14} className="text-indigo" /> Priya (HR Admin)
-            </button>
-            <button
-              type="button"
-              className="btn btn-secondary btn-sm"
-              onClick={() => fillDemoAccount('EMPLOYEE')}
-              style={{ fontSize: '0.75rem', flex: 1 }}
-            >
-              <User size={14} className="text-secondary" /> Aarav (Employee)
-            </button>
-          </div>
-        </div>
-
-        <div className="auth-divider">or sign in with email</div>
-
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} style={{ marginTop: 'var(--space-4)' }}>
           <div className="form-group">
             <label className="form-label" htmlFor="login-email">
               Work Email
