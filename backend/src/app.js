@@ -35,7 +35,7 @@ app.use('/api/notifications', require('./routes/notification.routes'));
 app.use('/api/reports', require('./routes/report.routes'));
 
 // Health check
-app.get('/api/health', (req, res) => res.json({ status: 'Dayflow API is running 🚀' }));
+app.get('/api/health', (req, res) => res.json({ status: 'Dayflow API is running' }));
 
 // 404 handler
 app.use((req, res) => res.status(404).json({ success: false, message: 'Route not found' }));
