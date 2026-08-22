@@ -1,7 +1,7 @@
 # 🌟 Dayflow – Modern Human Resource Management System (HRMS)
 
 > **Every workday, perfectly aligned.**  
-> *Dayflow is an enterprise-grade HRMS designed to streamline human resource workflows, employee attendance, time-off requests, payroll management (INR / ₹), and real-time workforce communications.*
+> *Dayflow is an enterprise-grade HRMS designed to streamline human resource workflows, employee attendance, time-off requests, payroll management (INR / ₹), and real-time workforce communications .*
 
 [![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?logo=react)](https://react.dev/)
 [![Node.js](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?logo=node.js)](https://nodejs.org/)
