@@ -12,13 +12,46 @@
 
 ## 📸 Screenshots & UI Showcase
 
-| 🔐 Modern Glassmorphism Login | 📊 Executive HR Admin Dashboard |
+### 🔐 Authentication
+| Login | Register |
 | :---: | :---: |
-| ![Login Screen](docs/screenshots/login_page.png) | ![Admin Dashboard](docs/screenshots/admin_dashboard.png) |
+| ![Login Page](docs/screenshots/login_page.png) | ![Register Page](docs/screenshots/register_page.png) |
 
-| 📝 Leave & Time-Off Management |
+---
+
+### 👑 Admin / HR Officer Views
+
+| 📊 Admin Dashboard (KPIs & Analytics) | 👥 Employee Directory |
+| :---: | :---: |
+| ![Admin Dashboard](docs/screenshots/admin_dashboard.png) | ![Employees](docs/screenshots/admin_employees.png) |
+
+| ⏱️ Attendance Tracking (All Staff) | 🌴 Leave Approvals & Time-Off |
+| :---: | :---: |
+| ![Admin Attendance](docs/screenshots/admin_attendance.png) | ![Admin Leave](docs/screenshots/admin_leave.png) |
+
+| 💰 Payroll Disbursement | 📈 Analytics & BI Reports |
+| :---: | :---: |
+| ![Admin Payroll](docs/screenshots/admin_payroll.png) | ![Reports](docs/screenshots/admin_reports.png) |
+
+| 🔔 Notifications & Broadcasts |
 | :---: |
-| ![Leave Requests](docs/screenshots/leave_requests.png) |
+| ![Admin Notifications](docs/screenshots/admin_notifications.png) |
+
+---
+
+### 👤 Employee Self-Service Views
+
+| 🏠 Employee Dashboard | 🪪 My Profile |
+| :---: | :---: |
+| ![Employee Dashboard](docs/screenshots/employee_dashboard.png) | ![Employee Profile](docs/screenshots/employee_profile.png) |
+
+| ⏱️ My Attendance & Clock In/Out | 📝 My Leave Requests |
+| :---: | :---: |
+| ![Employee Attendance](docs/screenshots/employee_attendance.png) | ![Employee Leave](docs/screenshots/employee_leave.png) |
+
+| 💵 My Payslips & Salary Breakdown |
+| :---: |
+| ![Employee Payroll](docs/screenshots/employee_payroll.png) |
 
 ---
 
